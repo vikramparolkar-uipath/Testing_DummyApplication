@@ -78,7 +78,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Create_Stock_Order" sap:VirtualizedContainerService.HintSize="1137,676" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Create_Stock_Order" sap:VirtualizedContainerService.HintSize="1154,826.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Version" />
     </Sequence.Variables>
@@ -98,7 +98,7 @@
           <OutArgument x:TypeArguments="x:String">[Version]</OutArgument>
         </Assign.To>
         <Assign.Value>
-          <InArgument x:TypeArguments="x:String">1.0</InArgument>
+          <InArgument x:TypeArguments="x:String">2.0</InArgument>
         </Assign.Value>
       </Assign>
     </Sequence>
