@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://staging.uipath.com/uibank/developmenttenant/testmanager_",
+  "defaultProject": {
+    "id": "4fa0e907-864b-0000-cf8a-0b45c8a61c89",
+    "name": "Development Sandbox",
+    "key": "DEV"
+  }
+}

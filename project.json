@@ -1,0 +1,80 @@
+{
+  "name": "Testing_DummyApp",
+  "projectId": "6311eab9-cf20-4fda-a87e-81b1f2a30de0",
+  "description": "Test Automation project to demonstrate how you would test multiple versions of an application",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.11.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "65b76c77-db9e-4823-a8a7-632e61bf855e",
+        "testCaseType": "TestCase",
+        "fileName": "Create New User.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "147e20cb-6cf7-48ba-b2bb-ee5b7287ef98",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Create New Account.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "592c5e1c-ec5a-477a-a9ed-c67c87ce2fc5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b3373c52-e37f-48e4-a1fe-f3796fb98f60",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Create Stock Order.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
